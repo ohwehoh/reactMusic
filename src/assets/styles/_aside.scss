@@ -1,0 +1,99 @@
+.asideWrap {
+    float: left;
+    width: 245px;
+    height: 100vh;
+    background-color: #000;
+    border-right: 1px solid #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .aside__logo {
+        width: 170px;
+        padding: 22px 0 20px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+        a {
+            display: inline-block;
+            font-family: 'GmarketSansLight';
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+
+    .aside__myPage {
+        border-bottom: 1px solid #1A1A1A;
+        width: 170px;
+        height: 50px;
+        font-size: 14px;
+        font-family: 'NexonLv1Gothic';
+        text-align: center;
+        a {
+            line-height: 50px;
+            position: relative;
+
+            svg {
+                position: absolute;
+                top: -5px;
+                left: -30px;
+            }
+        }
+    }
+
+    .aside__menu {
+        font-size: 18px;
+        font-family: 'NexonLv1Gothic';
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        border-bottom: 1px solid #1A1A1A;
+        width: 170px;
+        a {
+            margin-bottom: 15px;
+        }
+        a:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .aside__pList {
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'NexonLv1Gothic';
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        border-bottom: 1px solid #1A1A1A;
+        width: 170px;
+        a {
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        a:last-child {
+            margin-bottom: 0;
+        }
+
+    }
+    .aside__notice {
+        font-family: 'NexonLv1Gothic';
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        padding: 20px 0;
+        font-size: 18px;
+        color: #B9B9B9;
+        a {
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        a:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
